@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHC会员注册登录</title>
+    <link rel="shortcut icon" href="../images/images/font1.ico">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/head_copy.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../lib/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="header">
+        <div class="public">
+            <div class="left">
+                <span class="iconfont">&#xe628;</span>
+                <span class="sleft"><a href="#">门店查询</a></span>
+                <span class="iconfont sright">&#xe68b;</span>
+                <span><a href="#">在线客服</a></span>
+                <span class="right1"><a href="#">关注我们</a></span>
+                <span><a href="#">登录/注册</a></span>
+                <span class="iconfont">&#xe612;</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 关注我 -->
+    <div class="follow">
+        <ul>
+            <li class="follow-box first-follow">
+                <ul>
+                    <li class="follow-title">DHC官方商城</li>
+                    <li><img src="../images/images/companyabout_img_01.jpg" alt=""></li>
+                </ul>
+            </li>
+            <li class="follow-box">
+                <ul>
+                    <li class="follow-title">DHC官方小程序</li>
+                    <li><img src="../images/images/companyabout_img_02.jpg" alt=""></li>
+                </ul>
+            </li>
+            <li class="follow-box">
+                <ul>
+                    <li class="follow-title">DHC官方福利群</li>
+                    <li><img src="../images/images/companyabout_img_03.jpg" alt=""></li>
+                </ul>
+            </li>
+            <li class="follow-box">
+                <ul>
+                    <li class="follow-title">DHC官方APP</li>
+                    <li><img src="../images/images/companyabout_img_04.jpg" alt=""></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="hide"></div>
+
+    <div class="banner">
+        <div class="public clearfix">
+            <a href="./index.html"><img src="../images/images/logo_DHC1.png" alt="" class="img1"></a>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">本月优惠</a></li>
+                <li><a href="#">积分商城</a></li>
+                <li class="second"><a href="#">全部商品</a>
+                </li>
+                <li><a href="#">特价抢购</a></li>
+                <li class="last"><a href="#">品牌故事</a></li>
+                <a href="#"><img src="../images/images/nav_shop_car.png" alt="" class="navshopcar"></a>
+                <a href="#" ><img src="../images/images/search_icon.png" alt="" class="src"></a>
+            </ul>
+        </div>
+        <ol class="twice">
+            <li class="skin"><a href="#">护肤</a>/</li>
+            <li class="beauty"><a href="#">彩妆</a>/</li>
+            <li class="man"><a href="#">男士</a>/</li>
+            <li class="hair"><a href="#">美体美发</a>/</li>
+            <li class="tool"><a href="#">工具</a>/</li>
+            <li class="foods"><a href="#">健康食品</a>/</li>
+            <li class="star"><a href="#">明星TOP10</a></li>
+        </ol>
+    </div>
+
+    <!-- 登陆注册 -->
+    <div class="loginmain clearfix">
+        <div class="public">
+            <!-- 注册 -->
+            <div class="left">
+                <h3>新会员注册</h3>
+                <form action="../interface/register.php" method="POST">
+                    <table>
+                        <tr>
+                            <td>用户名</td>
+                            <td>
+                                <input type="text" name="username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>密码</td>
+                            <td>
+                                <input type="password" name="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>密码确认</td>
+                            <td>
+                                <input type="password" name="repassword">
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit"  id="zcbtn" value="立即注册">
+                </form>
+            </div>
+            <!-- 登录 -->
+            <div class="right">
+                <h3>DHC会员登录</h3>
+                <form action="../interface/login.php" id="loginform">
+                    <table>
+                        <tr>
+                            <td>用户名</td>
+                            <td>
+                                <input type="text" name="username" id="uname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>密码</td>
+                            <td>
+                                <input type="password" name="password" id="upass">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="tenday"></td>
+                            <td>
+                                十天免登录
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" id="loginbtn" value="立即登录">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- copy -->
+    <div class="copy">
+        <div class="public">
+            <div class="left">
+                <a href="#"><img src="../images/images/logo_foot.png" alt=""></a>
+                <p><a href="#">
+                    企业营业执照<br>
+                    沪ICP备05035135
+                </a></p>
+            </div>
+            <div class="center">
+                <p>上海蝶翠诗商业有限公司</p>
+                <ul>
+                    <li><a href="#">使用条款</a></li>
+                    <li class="center-li"><a href="#">隐私条款</a></li>
+                    <li><a href="#">使用规则</a></li>
+                </ul>
+                <b>版权所有(C)2003-2022</b>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../images/images/gs_icon.png" alt="">
+                            <p>上海工商</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/images/wj_icon.png" alt="">
+                            <p>上海网警110</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../images/images/zx_icon.png" alt="">
+                            <p>网络社会征信网</p>
+                        </a>
+                    </li>
+                </ul>
+                <i><img src="../images/images/mini_icon.png" alt=""><b>沪公网安备 31010102003613号</b></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/head_copy.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../js/login.js"></script>
+</html>

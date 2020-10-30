@@ -1,0 +1,232 @@
+/* 版心 */
+.public{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header{
+    height: 50px;
+    background-color: #004098;
+}
+.header span{
+    line-height: 50px;
+    font-size: 14px;
+    color: #b0bbd6;
+    padding-right: 13px;
+}
+.header span a{
+    color: #b0bbd6;
+    margin-right: 12px;
+}
+.header .sleft{
+    border-right:1px solid #ccc;
+}
+.header .sright{
+    padding-left: 27px;
+}
+.header .right1{
+    margin-left: 670px;
+    padding-right: 22px;
+    margin-right: 22px;
+    border-right: 1px solid #b0bbd6;
+}
+.iconfont{
+    font-size: 25px;
+}
+
+/* 关注我们 */
+.follow{
+    width: 1008px;
+    height: 216px;
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    left:140px;
+    display: none;
+    z-index: 999;
+}
+.follow .follow-box{
+    float: left;
+    margin-right: 100px;
+}
+.follow .first-follow{
+    margin-left: 100px;
+}
+.follow .follow-title{
+    text-align: center;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.hide{
+    height: 100px;
+    background-color: #fff;
+    display: none;
+}
+
+.banner{
+    width: 100%;
+    background-color: #fff;
+}
+.banner .img1{
+    margin-top: 20px;
+    float: left;
+}
+.banner>ul{
+    float: right;
+}
+.banner ul>li{
+    font-size:14px;
+    float: left;
+    line-height:100px;
+}
+.banner ul>li a{
+    font-size: 16px;
+    color:#282626;
+    line-height: 100px;
+    padding:0 30px;
+    padding-bottom: 38px;
+}
+.banner ul>li>a:hover{
+    border-bottom:2px solid #004098;
+}
+.banner ul .last{
+    margin-right: 35px;
+}
+.banner .navshopcar{
+    margin-top: 36px;
+    margin-left: 50px;
+}
+.banner .src{
+    margin-top: 36px;
+    margin-left:63px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+/* 二级菜单 */
+.banner ol{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding-left: 280px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 1px;
+    display: none;
+    z-index: 10;
+    border-top: 1px solid #eeeeee;
+}
+.banner ol li{
+    float: left;
+} 
+.banner ol li a{
+    color: #282626;
+    /* display: inline-block; */
+    font-size: 14px;
+    line-height: 80px;
+    padding: 0 40px;
+}
+.banner ol li a:hover{
+    color: #004098;
+}
+
+/* copy */
+.copy{
+    height: 200px;
+    background: #292929;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.copy .left{
+    margin-right: 100px;
+    float: left;
+}
+.copy .left p a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 45px;
+}
+.copy .center{
+    float: left;
+}
+.copy .center p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 36px;
+    margin-top: 26px;
+    font-weight: bold;
+}
+.copy .center ul li{
+    float: left;
+
+}
+.copy .center ul li a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+}
+.copy .center .center-li{
+    padding: 0 25px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin: 0 25px;
+}
+.copy .center b{
+    color: #fff;
+    font-size: 14px;
+}
+.copy .right{
+    float: right;
+}
+.copy .right ul li{
+    text-align: center;
+    float: left;
+    margin-bottom: 24px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.copy .right ul li p{
+    color: #fff;
+    font-size: 14px;
+}
+.copy .right i img{
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+}
+.copy .right i{
+    display: block;
+    width: 313px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 5px;
+    color: #fff;
+    border:1px solid #fff;
+    float: left;
+}
+
+/* 返回顶部 */
+.gotop{
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #004098;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 550px;
+    right: 30px;
+    z-index: 30;
+    cursor: pointer;
+}

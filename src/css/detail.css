@@ -1,0 +1,105 @@
+.dtbigimg img{
+    margin:0 190px;
+}
+.dtworks{
+    margin-top: 60px;
+}
+.dtworks .left{
+    float: left;
+    position: relative;
+}
+.dtworks .left p{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+}
+.dtworks .right{
+    float: left;
+}
+.dtworks .right .top span{
+    display: inline-block;
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    border:1px solid #004098;
+}
+.dtworks .right h3{
+    font-size: 30px;
+    line-height: 80px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+}
+.dtworks .right h4{
+    font-weight: normal;
+    font-size: 14px;
+    color: #959595;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.dtworks .right .dttable{
+    margin-top: 50px;
+}
+.dtworks .right .dttable b{
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.dtworks .right .dttable strong{
+    font-size: 24px;
+    color: #d71e06;
+    font-weight: bold;
+}
+.dtworks .right .dttable em{
+    display: inline-block;
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    background-color: #d71e06;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.dtworks .right .dttable select{
+    width: 135px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+.dtworks .right .dtshopcar button{
+    width: 215px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    background-color: #004098;
+    display: block;
+    color: #fff;
+    margin-right: 50px;
+    float: left;
+}
+.dtwords{
+    margin-bottom: 40px;
+}
+.dtwords h2{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+    background: #f5f5f5;
+    border-left: 5px solid #004098;
+}
+.dtwords p{
+    line-height: 30px;
+}

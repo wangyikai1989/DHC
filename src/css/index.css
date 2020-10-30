@@ -1,0 +1,161 @@
+/* 轮播图 */
+.swiper-container{
+    --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    --swiper-navigation-color: #e6e6e6;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 40px;/* 设置按钮大小 */
+}
+.nav img{
+    width: 100%;
+}
+
+/*  大图  */
+.main1{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.main1 img{
+    float: left;
+}
+.main1 .img1{
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.main1 .bottom img{
+    margin-right: 30px;
+}
+.main1 .bottom .no-margin{
+    margin: 0;
+}
+
+/* 促销 */
+.main2 .top{
+    margin-bottom: 60px;
+    height: 64px;
+}
+.main2 h1{
+    font-size: 48px;
+    color: #004098;
+    float: left;
+}
+.main2 h3{
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: normal;
+    float: right;
+}
+.main2 ul li{
+    margin-bottom: 30px;
+    overflow: hidden;
+    border:1px solid #eeeeee;
+}
+.main2 ul li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.main2 ul .no-margin{
+    margin: 0;
+}
+.main2 ul li a p{
+    width: 270px;
+    height: 126px;
+    background-color: #fff;
+    padding: 8px 18px;
+    position: absolute;
+    bottom:-37px;
+    box-sizing: border-box;
+}
+.main2 ul li p i{
+    font-size: 22px;
+    color: #d71e06;
+    float: left;
+}
+.main2 ul li p strong{
+    color: #959595;
+    line-height: 20px;
+    display: block;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+.main2 ul li p del{
+    font-size: 14px;
+    float: right;
+    color: #959595;
+}
+.main2 ul li p .off{
+    float: right;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    display: none;
+}
+.shadow{
+    box-shadow: 4px 4px 10px #e0e0e0;
+}
+.main2 ul li p .shopcar{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: none;
+}
+.main2{
+    margin-bottom: 72px;
+}
+.main2 .timeout{
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 40px;
+    line-height: 64px;
+    padding: 0 10px;
+    background-color: #004098;
+}
+
+/* 品牌故事 */
+.footer .top ul li{
+    float: left;
+    margin-bottom: 45px;
+}
+.footer .top ul li>a{
+    display: block;
+    font-size: 16px;
+    width: 370px;
+    height: 60px;
+    line-height: 60px;
+    background: #004098;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+.center{
+    margin: 0px 30px;
+}
+.footer .btm>ul>li{
+    width: 370px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    border-bottom: 1px solid #004098;
+    margin-bottom: 60px;
+}
+.footer .btm ul>li>b{
+    font-size: 22px;
+    color: #004098;
+}
+.footer .btm ul>li>i{
+    font-size: 20px;
+    padding-left: 18px;
+}
+.footer .btm ul li p{
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.footer .btm ul li img{
+    margin-top: 10px;
+}

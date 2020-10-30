@@ -1,0 +1,84 @@
+.loginmain .public{
+    width: 950px;
+    border-top: 28px solid #54aea5;
+    padding-top: 20px;
+}
+.loginmain table{
+    border-spacing: 0px;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 20px;
+    border:2px solid #ccc;
+    border-bottom: 0;
+}
+.loginmain h3{
+    font-size: 24px;
+    color: #333333;
+    border-bottom: 3px solid #54aea5;
+}
+.loginmain .left{
+    width: 452px;
+    height: 380px;
+    padding: 10px;
+    float: left;
+    border:2px solid #666666;
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.loginmain .right{
+    width: 452px;
+    height: 380px;
+    padding: 10px;
+    float: left;
+    border:2px solid #666666;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.loginmain table tr{
+    width: 392px;
+    height: 55px;
+    border-bottom: 2px solid #ccc;
+    display: block;
+}
+.loginmain table td:nth-child(1){
+    width: 126px;
+    height: 55px;
+    background-color: #f0f0f0;
+    color: #545454;
+    font-size: 15px;
+}
+.loginmain table td:nth-child(2){
+    width: 266px;
+    height: 55px;
+    position: relative;
+}
+.loginmain table input{
+    width: 222px;
+    height: 22px;
+    border:0px;
+    outline: #000 solid 1px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.loginmain form #zcbtn,#loginbtn{
+    width: 340px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #54aea5;
+    outline: none;
+    border:1px solid #cccccc;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.loginmain .right #tenday{
+    width: 122px;
+    outline: none;
+}

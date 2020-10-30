@@ -1,0 +1,37 @@
+{
+  "id": "2119319",
+  "name": "dhc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "708166",
+      "name": "客服",
+      "font_class": "wodekefu",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "998483",
+      "name": "购物车",
+      "font_class": "ai66",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "1312041",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "5269233",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    }
+  ]
+}
